@@ -1,0 +1,285 @@
+:root {
+  --background-color: #ffffff;
+  --second-text-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --font-main-color: #212121;
+  --font-weight-main: 700;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* ----------------шапка сторінки---------------- */
+
+.header {
+  background-color: var(--background-color);
+}
+
+.logo {
+  text-decoration: var(--text-decoration);
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--font-weight-main);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.logo-web {
+  color: #000000;
+}
+
+.header-nav .header-nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-main-color);
+  text-decoration: var(--text-decoration);
+}
+
+.header-nav-item:hover {
+  color: var(--second-text-color);
+}
+
+.header-contacts,
+.header-contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: var(--text-decoration);
+}
+
+.header-contacts-item:hover {
+  color: var(--second-text-color);
+}
+
+/* ----------------замовити послугу---------------- */
+
+.main {
+  background-color: #2f303a;
+}
+
+.main-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-btn {
+  font-family: var(--main-font);
+  background-color: var(--second-text-color);
+  font-weight: var(--font-weight-main);
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ----------------Переваги---------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantage,
+.advantage-item {
+  background: var(--background-color);
+}
+
+.advantage-item-name {
+  font-weight: var(--font-weight-main);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--font-main-color);
+}
+
+.advantage-item-info {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ----------------Чим ми займаємося---------------- */
+
+.about-us {
+  background: var(--background-color);
+}
+
+/* ----------------Наша команда---------------- */
+
+.team {
+  background: #f5f4fa;
+}
+
+.about-us-name,
+.team-name {
+  font-weight: var(--font-weight-main);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--font-main-color);
+}
+
+.team-list .team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* ----------------Підвал---------------- */
+.footer {
+  background: #2f303a;
+}
+
+.logo-studio-white {
+  color: #ffffff;
+}
+
+.footer-link {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-list-contact,
+.footer-list-ref {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address a:hover,
+.footer-list-contact a:focus {
+  color: var(--second-text-color);
+}
+
+/* ----------------шапка сторінки---------------- */
+.header {
+  background-color: var(--background-color);
+}
+
+.logo {
+  text-decoration: var(--text-decoration);
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--font-weight-main);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.logo-web {
+  color: #000000;
+}
+
+.header-nav .header-nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-main-color);
+  text-decoration: var(--text-decoration);
+}
+
+.header-nav-item:hover {
+  color: var(--second-text-color);
+}
+
+.header-contacts,
+.header-contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: var(--text-decoration);
+}
+
+.header-contacts-item:hover {
+  color: var(--second-text-color);
+}
+
+/* ----------------навігація сторінки---------------- */
+
+.section {
+  background-color: var(--background-color);
+}
+
+.btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--second-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ----------------контент сторінки---------------- */
+
+.service {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.service-name {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
