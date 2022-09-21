@@ -40,7 +40,7 @@ body {
 }
 
 .contact-link,
-.link {
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--font-main-color);
@@ -57,7 +57,7 @@ body {
   color: var(--second-text-color);
 }
 
-.link.current,
+.nav-link.current,
 .contact-link.current {
   color: var(--second-text-color);
 }
